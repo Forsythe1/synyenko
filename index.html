@@ -1,0 +1,1012 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Иконки и цвета для плиток Windows -->
+	<meta name="msapplication-TileColor" content="#2b5797">
+	<meta name="msapplication-TileImage" content="./images/icons/mstile-144x144.png">
+	<meta name="msapplication-square70x70logo" content="./images/icons/mstile-70x70.png">
+	<meta name="msapplication-square150x150logo" content="./images/icons/mstile-150x150.png">
+	<meta name="msapplication-wide310x150logo" content="./images/icons/mstile-310x310.png">
+	<meta name="msapplication-square310x310logo" content="./images/icons/mstile-310x150.png">
+	<meta name="application-name" content="My Application">
+	<meta name="msapplication-config" content="./browserconfig.xml">
+  <title>Врач-психиатр, психотерапевт высшей категории — Синенко Игорь Феликсович</title>
+  <!-- Обязательный (и достаточный) тег для браузеров -->
+	<link type="image/x-icon" rel="shortcut icon" href="./favicon.ico">
+	<!-- Дополнительные иконки для десктопных браузеров -->
+	<link type="image/png" sizes="16x16" rel="icon" href="./images/icons/favicon-16x16.png">
+	<link type="image/png" sizes="32x32" rel="icon" href="./images/icons/favicon-32x32.png">
+	<link type="image/png" sizes="96x96" rel="icon" href="./images/icons/favicon-96x96.png">
+	<link type="image/png" sizes="120x120" rel="icon" href="./images/icons/favicon-120x120.png">
+	<!-- Иконки для Android -->
+	<link type="image/png" sizes="72x72" rel="icon" href="./images/icons/android-icon-72x72.png">
+	<link type="image/png" sizes="96x96" rel="icon" href="./images/icons/android-icon-96x96.png">
+	<link type="image/png" sizes="144x144" rel="icon" href="./images/icons/android-icon-144x144.png">
+	<link type="image/png" sizes="192x192" rel="icon" href="./images/icons/android-icon-192x192.png">
+	<link type="image/png" sizes="512x512" rel="icon" href="./images/icons/android-icon-512x512.png">
+	<link rel="manifest" href="./manifest.json">
+	<!-- Иконки для iOS (Apple) -->
+	<link sizes="57x57" rel="apple-touch-icon" href="./images/icons/apple-touch-icon-57x57.png">
+	<link sizes="60x60" rel="apple-touch-icon" href="./images/icons/apple-touch-icon-60x60.png">
+	<link sizes="72x72" rel="apple-touch-icon" href="./images/icons/apple-touch-icon-72x72.png">
+	<link sizes="76x76" rel="apple-touch-icon" href="./images/icons/apple-touch-icon-76x76.png">
+	<link sizes="114x114" rel="apple-touch-icon" href="./images/icons/apple-touch-icon-114x114.png">
+	<link sizes="120x120" rel="apple-touch-icon" href="./images/icons/apple-touch-icon-120x120.png">
+	<link sizes="144x144" rel="apple-touch-icon" href="./images/icons/apple-touch-icon-144x144.png">
+	<link sizes="152x152" rel="apple-touch-icon" href="./images/icons/apple-touch-icon-152x152.png">
+	<link sizes="180x180" rel="apple-touch-icon" href="./images/icons/apple-touch-icon-180x180.png">
+	<!-- Иконки для MacOS (Apple) -->
+	<link color="#e52037" rel="mask-icon" href="./images/icons/safari-pinned-tab.svg">
+
+  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<header class="header wrapper lock-padding" id="header">
+    <nav class="main-nav" id="main-nav">
+      <div class="main-nav__inner">
+        <div class="logo">
+          <a class="logo__link" data-scroll="#header" href="#">
+            <img class="logo__img" src="images/icons/Logo_header.svg" alt="logo">
+          </a>
+        </div>
+        <div class="menu__icon">
+          <span></span>
+        </div>
+        <div class="main-nav__menu-mobl">
+          <ul class="main-nav__menu">
+            <li class="main-nav__item">
+              <a data-goto='.about_us' id="main-nav__link" class="main-nav__link" href="#">Обо мне</a>
+            </li>
+            <li class="main-nav__item">
+              <a data-goto='.help' id="main-nav__link" class="main-nav__link" href="#">Помощь</a>
+            </li>
+            <li class="main-nav__item">
+              <a data-goto='.method' id="main-nav__link" class="main-nav__link" href="#">Методы лечения</a>
+            </li>
+            <li class="main-nav__item">
+              <a data-goto='.services' id="main-nav__link" class="main-nav__link" href="#">Цены</a>
+            </li>
+            <li class="main-nav__item">
+              <a data-goto='.reviews' id="main-nav__link" class="main-nav__link" href="#">Отзывы</a>
+            </li>
+            <li class="main-nav__item">
+              <a data-goto='.questions' id="main-nav__link" class="main-nav__link" href="#">Вопросы</a>
+            </li>
+            <li class="main-nav__item">
+              <a data-goto='.contact' id="main-nav__link" class="main-nav__link" href="#">Контакты</a>
+            </li>
+          </ul>
+          <div class="main-nav__wrap2">
+            <div class="feedback__tel2 feedback__tel_burger">
+              <div class="feedback__trigger">
+                <a class="feedback__trigger-link feedback__trigger-link-burger" href="tel:+380682119569">+38 068 211 95 69</a>
+              </div>
+              <div class="feedback__content2 feedback__content-burger">
+                <a class="feedback__trigger-link feedback__trigger-link-burger" href="tel:+380682119569">+38 050 762 85 66</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main-nav__wrap">
+        <div class="feedback__tel">
+          <div class="feedback__trigger">
+            <a class="feedback__trigger-link" href="tel:+380682119569">+38 068 211 95 69</a>
+            <img class="feedback__trigger-arrow" src="./images/arrow.svg" alt="arrow">
+          </div>
+          <div class="feedback__content">
+            <a class="feedback__trigger-link" href="tel:+380682119569">+38 050 762 85 66</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  <div class="container">
+    <div class="header__content">
+      <div class="header__text">
+        <h1 class="header__title">Возвращение красок жизни</h1>
+        <p class="header__desc">
+          Квалифицированная психиатрическая и психотерапевтическая помощь в удобном для Вас формате: онлайн и очного
+          общения.
+        </p>
+        <button class="button" id="main-nav__link" data-goto='.contact' type="button">Записаться</button>
+      </div>
+      <div class="header__inner">
+        <img class="header__image" src="images/header__image.jpg" alt="image">
+        <ul class="header__social">
+          <li class="header__social-item">
+            <a class="header__social-link" href="viber://chat?number=%2B380682119569" target="_blank" aria-label="Вайбер">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M12 0C18.6274 0 24 5.37258 24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12C0 5.37258 5.37258 0 12 0ZM15.1971 10.4792C15.1387 10.005 14.993 9.63274 14.7341 9.30296C14.3981 8.87832 13.9686 8.62404 13.3328 8.4732C12.9184 8.37266 12.751 8.38421 12.6011 8.5211C12.4615 8.64936 12.4342 8.90648 12.5409 9.07298C12.6159 9.19383 12.7025 9.23713 12.9432 9.28438C13.2638 9.34336 13.4853 9.4199 13.6868 9.53512C14.1145 9.78209 14.3137 10.1686 14.335 10.7942C14.345 11.088 14.3704 11.1783 14.473 11.2825C14.6632 11.473 15.0016 11.4359 15.1452 11.208C15.1979 11.1221 15.2059 11.0847 15.2115 10.8852C15.2151 10.7617 15.2098 10.5779 15.1971 10.4792ZM15.2028 7.57008C16.2196 8.39239 16.7878 9.56114 16.8723 11.0138C16.9078 11.586 16.8606 11.7723 16.6588 11.8785C16.4766 11.9768 16.2703 11.9445 16.1287 11.7964C16.0349 11.7001 15.9989 11.5684 16.0002 11.3351C16.0044 10.6902 15.8558 9.97009 15.6142 9.47037C15.3346 8.88876 14.9025 8.39381 14.3588 8.03195C13.8826 7.71412 13.2523 7.49944 12.6413 7.44598C12.2449 7.4113 12.1034 7.34417 12.0273 7.15416C11.9802 7.04049 11.9926 6.84399 12.0479 6.75598C12.1001 6.67482 12.2174 6.58508 12.3002 6.56135C12.3881 6.53573 12.9001 6.58052 13.1781 6.63578C13.9373 6.7903 14.6298 7.10802 15.2028 7.57008ZM18.7261 16.6082C18.6977 16.5251 18.6314 16.3971 18.584 16.3235C18.2856 15.8729 16.6823 14.6181 15.8817 14.2078C15.4247 13.973 15.086 13.8947 14.8349 13.9682C14.565 14.0441 14.4228 14.1698 13.9705 14.732C13.7881 14.9573 13.601 15.1684 13.5513 15.2016C13.4281 15.287 13.1866 15.3558 13.0161 15.3558C12.6205 15.3534 11.9029 15.0972 11.3511 14.7604C10.9224 14.4995 10.373 14.0323 9.95143 13.5697C9.45405 13.0266 9.11542 12.5474 8.84777 12.0066C8.50201 11.3117 8.41438 10.8871 8.55883 10.5763C8.59436 10.4981 8.64174 10.4151 8.66302 10.3889C8.68435 10.3653 8.90699 10.1826 9.15327 9.98335C9.63644 9.59912 9.71458 9.51136 9.80457 9.24807C9.91825 8.91361 9.88748 8.57206 9.71222 8.22814C9.57721 7.96722 9.22434 7.39796 8.96856 7.03032C8.62989 6.54646 7.78676 5.5123 7.61858 5.37232C7.31544 5.12566 6.92706 5.08294 6.49835 5.24901C6.04604 5.42453 5.19815 6.10764 4.83578 6.58441C4.50895 7.01609 4.38347 7.32205 4.3645 7.72529C4.34793 8.05734 4.37634 8.19492 4.55161 8.61951C5.92288 11.9497 7.9691 14.6086 10.7803 16.7197C12.2487 17.8226 13.7716 18.6623 15.3512 19.2363C16.2725 19.5707 16.6728 19.5873 17.1441 19.3122C17.343 19.1936 17.8356 18.6884 18.1103 18.3207C18.5651 17.7087 18.7332 17.4265 18.7806 17.2012C18.8138 17.047 18.7877 16.779 18.7261 16.6082ZM18.1206 9.10027C18.4091 9.85173 18.5474 10.5257 18.5777 11.3475C18.5826 11.5098 18.5803 11.8072 18.5698 12.0087C18.5479 12.3949 18.5269 12.4716 18.4158 12.5738C18.237 12.7415 17.8887 12.7015 17.7566 12.4994C17.6876 12.391 17.6779 12.3116 17.6913 11.8604C17.7296 10.5256 17.4597 9.48057 16.8093 8.43557C16.0323 7.18184 14.8699 6.33727 13.3584 5.92408C12.9729 5.81891 12.6481 5.75481 12.1429 5.6868C11.8138 5.64373 11.7417 5.62551 11.6605 5.57552C11.4152 5.41837 11.4119 5.02043 11.6565 4.86089C11.7827 4.77667 11.8758 4.77291 12.2872 4.8256C13.4936 4.97636 14.5701 5.33483 15.4546 5.87653C16.0887 6.26532 16.4884 6.61459 17.0031 7.22631C17.5475 7.87872 17.8357 8.36108 18.1206 9.10027Z" />
+              </svg>
+            </a>
+          </li>
+          <li class="header__social-item">
+            <a class="header__social-link" href="https://telegram.me/psychiatrist_if" target="_blank" aria-label="Телеграм">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M24 12C24 18.6274 18.6274 24 12 24C5.3726 24 0 18.6274 0 12C0 5.3726 5.3726 0 12 0C18.6274 0 24 5.3726 24 12ZM8.03575 10.9008C6.83365 11.4256 5.59855 11.9649 4.46913 12.587C3.87939 13.0188 4.66319 13.3243 5.39855 13.6108C5.51545 13.6563 5.6311 13.7014 5.73985 13.7464C5.83035 13.7742 5.92235 13.8035 6.0156 13.8332C6.83345 14.0938 7.74535 14.3843 8.53935 13.9473C9.84365 13.198 11.0745 12.3318 12.3045 11.4662C12.7074 11.1826 13.1103 10.8992 13.5156 10.6199C13.5346 10.6077 13.556 10.5938 13.5794 10.5786C13.9247 10.3548 14.7012 9.85145 14.4139 10.545C13.7347 11.2878 13.0072 11.9454 12.2757 12.6065C11.7827 13.0521 11.288 13.4993 10.805 13.9753C10.3843 14.3171 9.94745 15.0044 10.4185 15.483C11.5034 16.2425 12.6054 16.9836 13.7066 17.7243C14.065 17.9653 14.4233 18.2064 14.7809 18.448C15.387 18.9319 16.3343 18.5404 16.4675 17.7843C16.5268 17.4364 16.5863 17.0886 16.6458 16.7407C16.9746 14.8184 17.3034 12.8954 17.594 10.9668C17.6335 10.6642 17.6782 10.3617 17.723 10.059C17.8316 9.3255 17.9403 8.59105 17.9743 7.85355C17.8868 7.11755 16.9943 7.2794 16.4977 7.4449C13.9451 8.4162 11.418 9.4595 8.90095 10.5212C8.6158 10.6475 8.32675 10.7737 8.03575 10.9008Z"/>
+              </svg>
+            </a>
+          </li>
+          <li class="header__social-item">
+            <a class="header__social-link" href="https://wa.me/380682119569" target="_blank" aria-label="ватсап">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M12 24C5.37258 24 0 18.6274 0 12C0 5.37258 5.37258 0 12 0C18.6274 0 24 5.37258 24 12C24 18.6274 18.6274 24 12 24ZM12.3955 18.6763C16.3297 18.6747 19.5295 15.4741 19.5311 11.5408C19.5318 9.63417 18.7903 7.84141 17.4431 6.49271C16.0959 5.14393 14.3043 4.40082 12.3955 4.4C8.46241 4.4 5.26139 7.60085 5.25982 11.5351C5.25929 12.7927 5.58787 14.0203 6.21231 15.1024L5.2 18.8L8.98267 17.8077C10.0249 18.3762 11.1984 18.6758 12.3926 18.6763H12.3955Z"/>
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M9.15794 16.5159L6.91325 17.1048L7.51239 14.9162L7.37138 14.6918C6.7777 13.7476 6.46414 12.6562 6.4646 11.5355C6.4659 8.26556 9.12647 5.60522 12.3979 5.60522C13.982 5.60577 15.4711 6.22345 16.5908 7.3445C17.7106 8.46555 18.3269 9.95561 18.3263 11.5403C18.325 14.8106 15.6644 17.4712 12.3955 17.4712H12.3931C11.3289 17.4708 10.2851 17.1848 9.37451 16.6445L9.15794 16.5159ZM15.9904 13.2376C15.9458 13.1632 15.827 13.1186 15.6487 13.0293C15.4704 12.9401 14.5938 12.5088 14.4304 12.4492C14.267 12.3898 14.1481 12.36 14.0292 12.5385C13.9104 12.7169 13.5687 13.1186 13.4647 13.2376C13.3607 13.3565 13.2567 13.3715 13.0784 13.2822C12.9002 13.193 12.3257 13.0047 11.6446 12.3972C11.1146 11.9245 10.7568 11.3406 10.6528 11.1621C10.5488 10.9836 10.6417 10.8872 10.7309 10.7983C10.8112 10.7184 10.9092 10.59 10.9984 10.4859C11.0875 10.3818 11.1172 10.3074 11.1767 10.1885C11.2361 10.0694 11.2064 9.96536 11.1618 9.87611C11.1172 9.78686 10.7607 8.90926 10.6121 8.55226C10.4674 8.20459 10.3204 8.25169 10.2109 8.2462C10.1071 8.24098 9.98808 8.23988 9.86923 8.23988C9.75038 8.23988 9.55721 8.28451 9.39378 8.46301C9.23036 8.64151 8.76977 9.07286 8.76977 9.95039C8.76977 10.828 9.40863 11.6758 9.49779 11.7948C9.58693 11.9138 10.755 13.7147 12.5436 14.4869C12.9689 14.6707 13.301 14.7804 13.56 14.8625C13.9871 14.9983 14.3758 14.9791 14.683 14.9332C15.0255 14.882 15.7378 14.5019 15.8865 14.0854C16.035 13.6689 16.035 13.3119 15.9904 13.2376Z"/>
+              </svg>
+            </a>
+          </li>
+          <li class="header__social-item">
+            <a class="header__social-link" href="https://www.facebook.com/profile.php?id=100009463183122"  target="_blank" aria-label="Фейсбук">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M12 0C5.37258 0 0 5.37258 0 12C0 18.6274 5.37258 24 12 24C18.6274 24 24 18.6274 24 12C24 5.37258 18.6274 0 12 0ZM13.2508 12.5271V19.0557H10.5495V12.5274H9.2V10.2776H10.5495V8.92678C10.5495 7.0914 11.3116 6 13.4766 6H15.279V8.25006H14.1524C13.3096 8.25006 13.2538 8.56447 13.2538 9.15125L13.2508 10.2773H15.2918L15.053 12.5271H13.2508Z"/>
+              </svg>
+            </a>
+          </li>
+          <li class="header__social-item">
+            <a class="header__social-link" href="https://instagram.com/psychiatrist_if?utm_medium=copy_link" target="_blank" aria-label="Инстаграм">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M12 0C5.37258 0 0 5.37258 0 12C0 18.6274 5.37258 24 12 24C18.6274 24 24 18.6274 24 12C24 5.37258 18.6274 0 12 0ZM9.36164 5.63867C10.0443 5.6076 10.2624 5.6 12.0006 5.6H11.9986C13.7373 5.6 13.9546 5.6076 14.6373 5.63867C15.3186 5.66987 15.784 5.77774 16.192 5.936C16.6133 6.09934 16.9693 6.31801 17.3253 6.67401C17.6813 7.02975 17.9 7.38682 18.064 7.80776C18.2213 8.21469 18.3293 8.67977 18.3613 9.36111C18.392 10.0438 18.4 10.2619 18.4 12.0001C18.4 13.7382 18.392 13.9558 18.3613 14.6385C18.3293 15.3196 18.2213 15.7848 18.064 16.1918C17.9 16.6126 17.6813 16.9697 17.3253 17.3255C16.9697 17.6815 16.6132 17.9007 16.1924 18.0641C15.7852 18.2224 15.3196 18.3303 14.6382 18.3615C13.9556 18.3925 13.7381 18.4001 11.9998 18.4001C10.2618 18.4001 10.0438 18.3925 9.36111 18.3615C8.6799 18.3303 8.21469 18.2224 7.80749 18.0641C7.38682 17.9007 7.02975 17.6815 6.67414 17.3255C6.31827 16.9697 6.09961 16.6126 5.936 16.1917C5.77787 15.7848 5.67 15.3197 5.63867 14.6384C5.60773 13.9557 5.6 13.7382 5.6 12.0001C5.6 10.2619 5.608 10.0436 5.63853 9.36097C5.6692 8.6799 5.7772 8.21469 5.93587 7.80762C6.09987 7.38682 6.31854 7.02975 6.67454 6.67401C7.03028 6.31814 7.38735 6.09947 7.80829 5.936C8.21523 5.77774 8.6803 5.66987 9.36164 5.63867Z"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M11.4264 6.75306C11.5379 6.75289 11.6578 6.75294 11.7872 6.753L12.0005 6.75306C13.7093 6.75306 13.9119 6.7592 14.5867 6.78987C15.2107 6.8184 15.5494 6.92267 15.775 7.01027C16.0736 7.12627 16.2866 7.26494 16.5104 7.48894C16.7344 7.71294 16.8731 7.92628 16.9894 8.22495C17.077 8.45028 17.1814 8.78895 17.2098 9.41296C17.2404 10.0876 17.2471 10.2903 17.2471 11.9983C17.2471 13.7063 17.2404 13.909 17.2098 14.5837C17.1812 15.2077 17.077 15.5464 16.9894 15.7717C16.8734 16.0704 16.7344 16.283 16.5104 16.5069C16.2864 16.7309 16.0738 16.8696 15.775 16.9856C15.5496 17.0736 15.2107 17.1776 14.5867 17.2061C13.912 17.2368 13.7093 17.2434 12.0005 17.2434C10.2916 17.2434 10.089 17.2368 9.41437 17.2061C8.79036 17.1773 8.45169 17.073 8.22596 16.9854C7.92729 16.8694 7.71395 16.7308 7.48995 16.5068C7.26595 16.2828 7.12728 16.07 7.01101 15.7712C6.92341 15.5458 6.81901 15.2072 6.79061 14.5831C6.75994 13.9085 6.75381 13.7058 6.75381 11.9967C6.75381 10.2876 6.75994 10.086 6.79061 9.41136C6.81914 8.78735 6.92341 8.44868 7.01101 8.22308C7.12701 7.92441 7.26595 7.71107 7.48995 7.48707C7.71395 7.26307 7.92729 7.1244 8.22596 7.00813C8.45156 6.92013 8.79036 6.81613 9.41437 6.78747C10.0048 6.7608 10.2336 6.7528 11.4264 6.75146V6.75306ZM15.4168 7.81579C14.9928 7.81579 14.6488 8.1594 14.6488 8.58354C14.6488 9.00754 14.9928 9.35154 15.4168 9.35154C15.8408 9.35154 16.1848 9.00754 16.1848 8.58354C16.1848 8.15953 15.8408 7.81553 15.4168 7.81553V7.81579ZM8.71382 11.9997C8.71382 10.1846 10.1854 8.71306 12.0004 8.71299C13.8155 8.71299 15.2867 10.1846 15.2867 11.9997C15.2867 13.8148 13.8156 15.2857 12.0005 15.2857C10.1854 15.2857 8.71382 13.8148 8.71382 11.9997Z"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M12.0006 9.8667C13.1787 9.8667 14.1339 10.8218 14.1339 12.0001C14.1339 13.1782 13.1787 14.1334 12.0006 14.1334C10.8223 14.1334 9.86723 13.1782 9.86723 12.0001C9.86723 10.8218 10.8223 9.8667 12.0006 9.8667V9.8667Z"/>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</header>
+<main class="page-main">
+  <section class="about_us" id="about_us">
+    <div class="container">
+      <div class="about_us__inner">
+        <h2 class="about_us__title">Обо мне</h2>
+        <div class="about_us__wrapper">
+          <img class="about_us__image" src="images/about_us__image.png" alt="image">
+          <div class="about_us__content">
+            <p class="about_us__suptitle">
+              Обо мне
+            </p>
+            <p class="about_us__text">
+              Врач-психиатр, Психотерапевт и гипнотерапевт высшей категории, имею опыт работы более 25 лет в лечении психических заболеваний и невротических расстройств как медикаментозно, так и с помощью психотерапии.
+            </p>
+            <p class="about_us__text-bottom">При психотерапевтическом лечении использую : гипнотерапию, когнитивно-поведенческую и рациональную психотерапию, эмоционально-образную терапию, символдраму, семейную терапию и др.</p>
+            <div class="about_us__social">
+              <ul class="about_us__list">
+                <li class="about_us__item"> 
+                  <a href="#popup_2" class="about_us__video popup-link">
+                      <span class="about_us__item-certificate">Дипломы и сертификаты</span>
+                  </a>
+                </li>
+                <li class="about_us__item">
+                  <a href="#popup" class="about_us__video about_us__video-right popup-link">
+                     <span class="about_us__item-certificate">Видео</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="help">
+    <h2 class="help__title">Я могу вам </br> помочь</h2>
+    <p class="help__suptitle">Я могу вам помочь, если:</p>
+    <div class="container">
+      <div class="help__inner">
+        <div class="help__wrapper">
+          <div class="help__foto">
+            <img class="help__image" src="images/help__image.png" alt="image">
+          </div> 
+          <ul class="help__list">
+            <li class="help__item">
+              <p>Вы чувствуете постоянную тревогу за своё здоровье</p>
+            </li>
+            <li class="help__item">
+              <p>Вы прошли всех других специалистов и они ничего не находят</p>
+            </li>
+            <li class="help__item">
+              <p>Вы испытываете панические состояния</p>
+            </li>
+            <li class="help__item">
+              <p>У Вас низкая самооценка</p>
+            </li>
+            <li class="help__item">
+              <p>Вы срываетесь на своих близких</p>
+            </li>
+            <li class="help__item">
+              <p>У Вас проблемы в отношениях</p>
+            </li>
+            <li class="help__item">
+              <p>Нарушен сон</p>
+            </li>
+            <li class="help__item">
+              <p>У Вас в голове появляются мысли, которые Вам не нравятся</p>
+            </li>
+            <li class="help__item">
+              <p>Если Вы чувствуете, что у Вас есть какие-то проблемы в психике</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="method">
+    <h2 class="method__title">Методы </br> лечения</h2>
+    <p class="method__suptitle">Методы лечения</p>
+    <div class="container">
+      <div class="method__inner">
+        <div class="method__wrapper">
+          <div class="method__content">
+            <span>01</span>
+            <div class="method__text">
+              <p class="method__text-suptitle">
+                Беседа и выбор метода психотерапии
+              </p>
+              <p class="method__text-subtitle">
+                Беседа для выявления нарушений, подлежащих коррекции, выбор метода психотерапии с объяснением для чего и как это делается
+              </p>
+            </div>
+          </div>
+          <div class="method__content">
+            <span>02</span>
+            <div class="method__text">
+              <p class="method__text-suptitle">
+                Расслабление и погружение в транс
+              </p>
+              <p class="method__text-subtitle">
+                Пациент садится в удобное кресло, находясь с открытыми глазами, слушает терапевта и расслабляется, погружаясь в состояние транса
+              </p>
+            </div>
+          </div>
+          <div class="method__content">
+            <span>03</span>
+            <div class="method__text">
+              <p class="method__text-suptitle">
+                Лечебные внушения
+              </p>
+              <p class="method__text-subtitle">
+                После погружения в транс, во время того, как пациент слушает терапевта, проводятся лечебные внушения. Пациент не отключается, не засыпает, не теряет сознания, просто находится в расслабленном состоянии
+              </p>
+            </div>
+          </div>
+          <div class="method__content">
+            <span>04</span>
+            <div class="method__text">
+              <p class="method__text-suptitle">
+                Выход из транса
+              </p>
+              <p class="method__text-subtitle">
+                В заключении сеанса пациенту даются установки на хорошее самочувствие и постепенный выход из транса
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="method__image">
+          <img src="images/method__image.png" alt="image">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="services">
+    <div class="container">
+      <div class="services__inner">
+        <div class="services__left">
+            <h2 class="services__title">Услуги и </br> Цены</h2>
+            <div class="services__image">
+              <img src="images/services__image.png" alt="image">
+            </div>
+        </div>
+        <div class="services__wrapper">
+          <div class="services__right one">
+            <div class="services-item">
+              <div class="services-item__trigger">
+                <p class="services__price-text">Первичная консультация психиатрическая или психотерапевтическая</p>
+                <div class="services__price-img">
+                  <img  src="images/servises__arrow.png" alt="arrow">
+                </div>
+                <div class="services-item__content">
+                  <p class="services__price-time">40 мин. - 1 300 грн.</p>
+                </div>
+              </div>
+            </div>
+            <div class="services-item">
+              <div class="services-item__trigger">
+                <p class="services__price-text">Повторная консультация психиатрическая</p>
+                <div class="services__price-img">
+                  <img  src="images/servises__arrow.png" alt="arrow">
+                </div>
+                <div class="services-item__content">
+                  <p class="services__price-time">20 мин. - 900 грн.</p>
+                </div>
+              </div>
+            </div>
+            <div class="services-item">
+              <div class="services-item__trigger">
+                <p class="services__price-text">Консультация на дому по Киеву</p>
+                <div class="services__price-img">
+                  <img  src="images/servises__arrow.png" alt="arrow">
+                </div>
+                <div class="services-item__content">
+                  <p class="services__price-time">5000 грн.</p>
+                </div>
+              </div>
+            </div>
+            <div class="services-item">
+              <div class="services-item__trigger">
+                <p class="services__price-text">Сеанс индивидуальной психотерапии</p>
+                <div class="services__price-img">
+                  <img  src="images/servises__arrow.png" alt="arrow">
+                </div>
+                <div class="services-item__content">
+                  <p class="services__price-time">50 минут - 2000 грн.</p>
+                </div>
+              </div>
+            </div>
+            <div class="services-item">
+              <div class="services-item__trigger">
+                <p class="services__price-text">В составе курса. Сеанс индивидуальной психотерапии однократный (пробный)</p>
+                <div class="services__price-img">
+                  <img  src="images/servises__arrow.png" alt="arrow">
+                </div>
+                <div class="services-item__content">
+                  <p class="services__price-time">50 минут - 2500грн.</p>
+                </div>
+              </div>
+            </div>
+            <div class="services-item">
+              <div class="services-item__trigger">
+                <p class="services__price-text">Сеанс детской психотерапии</p>
+                <div class="services__price-img">
+                  <img  src="images/servises__arrow.png" alt="arrow">
+                </div>
+                <div class="services-item__content">
+                  <p class="services__price-time">40 минут - 1600 грн</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="services__info">
+            <p>* Цены оффлайн и онлайн
+            </p>
+            <p class="services__info-subtitle">* Перенос времени встречи возможен не позднее, чем за сутки до ее начала.</p>
+            <button  data-goto='.contact' id="main-nav__link" class="services__btn button">Записаться</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p class="services__right-text">
+      Услуги и цены
+    </p>
+  </section>
+  <section class="reviews">
+    <div class="swiper-pagination">
+      <div class="swiper-pagination-bullet swiper-pagination-bullet-active"></div>
+      <div class="swiper-pagination-bullet"></div>
+      <div class="swiper-pagination-bullet"></div>
+    </div>
+    <div class="container">
+      <div class="reviews__inner">
+        <h2 class="reviews__title">Отзывы</h2>
+        <div class="reviews__button">
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </div>
+      <div class="swiper mySwiper5">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="reviews__slider">
+              <a href="#popup_3" class="reviews__link popup-link"></a>
+                <div class="reviews__slider-title">
+                  <img src="images/slider_1.jpg" alt="image">
+                  <span class="reviews__slider-name">Оксана Дмитриевна</span>
+                </div>
+              <p class="reviews__slider-text">
+                Добрый день. Никогда не писала ни о ком отзывы, но в случае с Вами, Игорь Феликсович, с большим удовольствием это сделаю. Вы врач с большой буквы: внимательно выслушали  мои жалобы, дали исчерпывающие ответы на все мои вопросы, объяснили  подробно о тактике лечения. Чувствую себя другим человеком за что вам безмерно благодарна.
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="reviews__slider">
+              <a href="#popup_3" class="reviews__link popup-link"></a>
+              <div class="reviews__slider-title">
+                <img src="images/slider_2.jpg" alt="image">
+                <span class="reviews__slider-name">Павел Валерьевич</span>
+              </div>
+              <p class="reviews__slider-text">
+                Игорь Феликсович, хочу выразить Вам огромную благодарность за лечение. Я думал, что мне уже ничего не поможет. Много лет страдал язвенной болезнью желудка, ходил от одного врача к другому, сидел на диете, но обострение  моей болезни 4-5 раз в год. Я понимаю, что работа у меня нервная, но ничего не мог поменять. После Ваших сеансов за 6 месяцев нет проблем, даже позволяю себя побаловать шашлыком.
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="reviews__slider">
+              <a href="#popup_3" class="reviews__link popup-link"></a>
+              <div class="reviews__slider-title">
+                <img src="images/slider_3.png" alt="image">
+                <span class="reviews__slider-name">Ирина Юрьевна</span>
+              </div>
+              <p class="reviews__slider-text">
+                Полгода назад я приводила к Вам своего сына, у него были проблемы в эмоциональной сфере, ежедневные истерики выматывали нас обоих . Сейчас « золотой ребёнок». После пяти сеансов гипноза мы забыли об истериках, в школе учеба наладилась и друзья хорошие появились. Спасибо Вам большое.
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="reviews__slider">
+              <a href="#popup_3" class="reviews__link popup-link"></a>
+              <div class="reviews__slider-title">
+                <img src="images/slider_5.jpg" alt="image">
+                <span class="reviews__slider-name">Аля Нагорная</span>
+              </div>
+              <p class="reviews__slider-text">
+                С Игорем очень легко и приятно работать! Он словно читает меня изнутри! Моя жизнь после наших с ним консультаций кардинально изменилась в лучшую сторону!
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="reviews__slider">
+              <a href="#popup_3" class="reviews__link popup-link"></a>
+              <div class="reviews__slider-title">
+                <img src="images/slider_6.jpg" alt="image">
+                <span class="reviews__slider-name">Андрей Белов</span>
+              </div>
+              <p class="reviews__slider-text">
+                Спасибо, что помог понять мне себя! И стал моим психотерапевтом! В каждой сложной ситуации,когда я не знаю как лучше поступить- я могу опереться на тебя и получить самый верный совет!
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="reviews__slider">
+              <a href="#popup_3" class="reviews__link popup-link"></a>
+              <div class="reviews__slider-title">
+                <img src="images/slider_4.jpg" alt="image">
+                <span class="reviews__slider-name">Алексей Солодов</span>
+              </div>
+              <p class="reviews__slider-text">
+                Игорь помог мне увидеть себя другим. После работы с ним я стал себя ценить, через 2 месяца нашел новую работу о которой раньше даже не мечтал. Отношения с женой также наладились.
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="reviews__slider">
+              <a href="#popup_3" class="reviews__link popup-link"></a>
+              <div class="reviews__slider-title">
+                <img src="images/slider_2.jpg" alt="image">
+                <span class="reviews__slider-name">Павел Валерьевич</span>
+              </div>
+              <p class="reviews__slider-text">
+                Игорь Феликсович, хочу выразить Вам огромную благодарность за лечение. Я думал, что мне уже ничего не поможет. Много лет страдал язвенной болезнью желудка, ходил от одного врача к другому, сидел на диете, но обострение  моей болезни 4-5 раз в год. Я понимаю, что работа у меня нервная, но ничего не мог поменять. После Ваших сеансов за 6 месяцев нет проблем, даже позволяю себя побаловать шашлыком.
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="reviews__slider">
+              <a href="#popup_3" class="reviews__link popup-link"></a>
+              <div class="reviews__slider-title">
+                <img src="images/slider_6.jpg" alt="image">
+                <span class="reviews__slider-name">Андрей Белов</span>
+              </div>
+              <p class="reviews__slider-text">
+                Спасибо, что помог понять мне себя! И стал моим психотерапевтом! В каждой сложной ситуации,когда я не знаю как лучше поступить- я могу опереться на тебя и получить самый верный совет!
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="reviews__slider">
+              <a href="#popup_3" class="reviews__link popup-link"></a>
+              <div class="reviews__slider-title">
+                <img src="images/slider_5.jpg" alt="image">
+                <span class="reviews__slider-name">Аля Нагорная</span>
+              </div>
+              <p class="reviews__slider-text">
+                С Игорем очень легко и приятно работать! Он словно читает меня изнутри! Моя жизнь после наших с ним консультаций кардинально изменилась в лучшую сторону!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="reviews__bottom">Отзывы</p>
+    </div>
+  </section>
+  <section class="questions">
+    <div class="container">
+      <div class="questions__inner">
+        <h2 class="questions__title">Вопросы - ответ</h2>
+        <div class="questions__wrapper">
+          <div class="accordion one">
+            <div class="accordion-item">
+              <div class="accordion-item__trigger">
+                <p class="accordion-item__trigger-text">Сколько (в среднем) длится терапия?</p>
+                <div class="accordion-item__trigger-btn">
+                  <span class="accordion-item__trigger-btn-plus"></span>
+                  <span class="accordion-item__trigger-btn-minus"></span>
+                </div>
+              </div>
+              <div class="accordion-item__content">
+               <p class="accordion-item__content-text">
+                Однозначного ответа нет: всё индивидуально. Для понимания процесса терапии необходимо 2-3 встречи.
+                Краткосрочный эффект наступает, как правило, спустя 5-7 сессий. Долгосрочный эффект зависит от изначальных целей терапии: для 
+                ситуативных проблем бывает достаточно 7-10 занятий, а для глубоких личностных изменений и 20 может быть недостаточно. В среднем,
+                терапия менее 10 встреч считается краткосрочной, 20–40 — среднесрочной, более 40 — долгосрочной.
+               </p>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <div class="accordion-item__trigger">
+                <p class="accordion-item__trigger-text">Я хочу получить помощь по скайпу. Возможно ли это?</p>
+                <div class="accordion-item__trigger-btn">
+                  <span class="accordion-item__trigger-btn-plus"></span>
+                  <span class="accordion-item__trigger-btn-minus"></span>
+                </div>
+              </div>
+              <div class="accordion-item__content">
+                <p class="accordion-item__content-text">
+                  Смотря какого эффекта от терапии вы ждёте. Чем конкретнее проблема, тем легче её решить (в т.ч. по скайпу).
+                  Чем сложнее ситуация, тем больше понадобится времени для её разрешения.
+                </p>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <div class="accordion-item__trigger">
+                <p class="accordion-item__trigger-text">Я уже посещал психотерапевта, но он мне не помог.</br>
+                  Стоит ли попробовать сейчас?</p>
+                <div class="accordion-item__trigger-btn">
+                  <span class="accordion-item__trigger-btn-plus"></span>
+                  <span class="accordion-item__trigger-btn-minus"></span>
+                </div>
+              </div>
+              <div class="accordion-item__content">
+                <p class="accordion-item__content-text">
+                  Обращение к психотерапевту каждый раз — уникальная ситуация.</br>
+                  Во-первых, имеет значение конкретная ситуация с которой вы обращались: скорее всего, она как-то изменилась, прошло время. Во-вторых, большое значение имеют методы 
+                  и подходы, которые использовал предыдущий специалист. В-третьих, личность психотерапевта также определяет ход терапии. Разнообразие вышеперечисленных факторов 
+                  свидетельствует о том, что новое обращение к психотерапевту приведёт к новому результату. Стоит попробовать.
+                </p>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <div class="accordion-item__trigger">
+                <p class="accordion-item__trigger-text">Сколько сеансов гипнотерапии мне понадобится?</p>
+                <div class="accordion-item__trigger-btn">
+                  <span class="accordion-item__trigger-btn-plus"></span>
+                  <span class="accordion-item__trigger-btn-minus"></span>
+                </div>
+              </div>
+              <div class="accordion-item__content">
+                <p class="accordion-item__content-text">
+                  Каждый человек индивидуален и количество сеансов зависит от готовности человека к изменениям в восприятии окружающего мира, 
+                  способности погружаться в трансовое состояние, степени доверия к терапевту. В среднем, это около 10 сеансов.
+                </p>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <div class="accordion-item__trigger">
+                <p class="accordion-item__trigger-text">От чего зависит выбор метода лечения?</p>
+                <div class="accordion-item__trigger-btn">
+                  <span class="accordion-item__trigger-btn-plus"></span>
+                  <span class="accordion-item__trigger-btn-minus"></span>
+                </div>
+              </div>
+              <div class="accordion-item__content">
+                <p class="accordion-item__content-text">
+                  Выбор метода лечения зависит от Вас, я могу предоставить информацию по каждому методу и подчеркнуть плюсы и минусы каждого метода, сказать,
+                  какой предпочтительнее в Вашем случае.
+                </p>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <div class="accordion-item__trigger">
+                <p class="accordion-item__trigger-text">Можно ли совмещать лечение медикаментами и гипноз?</p>
+                <div class="accordion-item__trigger-btn">
+                  <span class="accordion-item__trigger-btn-plus"></span>
+                  <span class="accordion-item__trigger-btn-minus"></span>
+                </div>
+              </div>
+              <div class="accordion-item__content">
+                <p class="accordion-item__content-text">
+                  Конечно можно, при использовании гипноза медикаменты действуют более эффективно, используются меньшие дозы и более комфортный уход от приема медикаментов.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="questions__right">
+            <p class="questions__right-text">Вопросы </br> - ответ</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="contact">
+    <div class="container">
+      <h2 class="contact__title">
+        Возникли вопросы или сомнения?</br>
+        Пишите нам и мы ответим в кратчайшие сроки.
+      </h2>
+      <form action="#" id="form" class="contact__form-wrap">
+        <div class="contact__inner">
+          <div class="contact__left-wrap">
+            <label class="field-text">
+              <span class="field-text__input-wrap">
+                <input id="formName" class="field-text__input _req" name="name" type="text" placeholder="Ваше имя">
+              </span>
+            </label>
+            <label class="field-text">
+              <span class="field-text__input-wrap">
+                <input id="formEmail" class="field-text__input _req _email" name="email" type="email" placeholder="Ваш Email">
+              </span>
+            </label>
+            <label class="field-text">
+              <span class="field-text__input-wrap">
+                <input id="formTel" class="field-text__input _req _tel" name="tel" type="tel" placeholder="Ваш телефон">
+              </span>
+            </label>
+          </div>
+          <div class="contact__right-wrap">
+            <label class="field-text">
+              <span class="field-text__input-wrap">
+                <textarea id="formMessage" name="message" class="field-text__input" rows="8" placeholder="Сообщение"></textarea>
+              </span>
+            </label>
+          </div>
+          <div class="contact__btn-wrap">
+            <button class="contact__btn button" type="submit">Отправить</button>
+          </div>
+        </div>
+        <footer class="feedback">
+          <div class="feedback__info-left">
+            <a class="feedback__email" href="mailto:igorfsink@gmail.com">
+              igorfsink@gmail.com
+            </a>
+            <div class="feedback__tel">
+              <div class="feedback__trigger">
+                <a class="feedback__trigger-link" href="tel:+380682119569">+38 068 211 95 69</a>
+                <img class="feedback__trigger-arrow" src="./images/arrow.svg" alt="arrow">
+              </div>
+              <div class="feedback__content">
+                <a class="feedback__trigger-link" href="tel:+380682119569">+38 050 762 85 66</a>
+              </div>
+            </div>
+          </div>
+          <div class="feedback__info-right">
+            <ul class="feedback__social">
+              <li class="feedback__social-item">
+                <a class="feedback__social-link" href="viber://chat?number=%2B380682119569" target="_blank" aria-label="Вайбер">    
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M12 0C18.6274 0 24 5.37258 24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12C0 5.37258 5.37258 0 12 0ZM15.1971 10.4792C15.1387 10.005 14.993 9.63274 14.7341 9.30296C14.3981 8.87832 13.9686 8.62404 13.3328 8.4732C12.9184 8.37266 12.751 8.38421 12.6011 8.5211C12.4615 8.64936 12.4342 8.90648 12.5409 9.07298C12.6159 9.19383 12.7025 9.23713 12.9432 9.28438C13.2638 9.34336 13.4853 9.4199 13.6868 9.53512C14.1145 9.78209 14.3137 10.1686 14.335 10.7942C14.345 11.088 14.3704 11.1783 14.473 11.2825C14.6632 11.473 15.0016 11.4359 15.1452 11.208C15.1979 11.1221 15.2059 11.0847 15.2115 10.8852C15.2151 10.7617 15.2098 10.5779 15.1971 10.4792ZM15.2028 7.57008C16.2196 8.39239 16.7878 9.56114 16.8723 11.0138C16.9078 11.586 16.8606 11.7723 16.6588 11.8785C16.4766 11.9768 16.2703 11.9445 16.1287 11.7964C16.0349 11.7001 15.9989 11.5684 16.0002 11.3351C16.0044 10.6902 15.8558 9.97009 15.6142 9.47037C15.3346 8.88876 14.9025 8.39381 14.3588 8.03195C13.8826 7.71412 13.2523 7.49944 12.6413 7.44598C12.2449 7.4113 12.1034 7.34417 12.0273 7.15416C11.9802 7.04049 11.9926 6.84399 12.0479 6.75598C12.1001 6.67482 12.2174 6.58508 12.3002 6.56135C12.3881 6.53573 12.9001 6.58052 13.1781 6.63578C13.9373 6.7903 14.6298 7.10802 15.2028 7.57008ZM18.7261 16.6082C18.6977 16.5251 18.6314 16.3971 18.584 16.3235C18.2856 15.8729 16.6823 14.6181 15.8817 14.2078C15.4247 13.973 15.086 13.8947 14.8349 13.9682C14.565 14.0441 14.4228 14.1698 13.9705 14.732C13.7881 14.9573 13.601 15.1684 13.5513 15.2016C13.4281 15.287 13.1866 15.3558 13.0161 15.3558C12.6205 15.3534 11.9029 15.0972 11.3511 14.7604C10.9224 14.4995 10.373 14.0323 9.95143 13.5697C9.45405 13.0266 9.11542 12.5474 8.84777 12.0066C8.50201 11.3117 8.41438 10.8871 8.55883 10.5763C8.59436 10.4981 8.64174 10.4151 8.66302 10.3889C8.68435 10.3653 8.90699 10.1826 9.15327 9.98335C9.63644 9.59912 9.71458 9.51136 9.80457 9.24807C9.91825 8.91361 9.88748 8.57206 9.71222 8.22814C9.57721 7.96722 9.22434 7.39796 8.96856 7.03032C8.62989 6.54646 7.78676 5.5123 7.61858 5.37232C7.31544 5.12566 6.92706 5.08294 6.49835 5.24901C6.04604 5.42453 5.19815 6.10764 4.83578 6.58441C4.50895 7.01609 4.38347 7.32205 4.3645 7.72529C4.34793 8.05734 4.37634 8.19492 4.55161 8.61951C5.92288 11.9497 7.9691 14.6086 10.7803 16.7197C12.2487 17.8226 13.7716 18.6623 15.3512 19.2363C16.2725 19.5707 16.6728 19.5873 17.1441 19.3122C17.343 19.1936 17.8356 18.6884 18.1103 18.3207C18.5651 17.7087 18.7332 17.4265 18.7806 17.2012C18.8138 17.047 18.7877 16.779 18.7261 16.6082ZM18.1206 9.10027C18.4091 9.85173 18.5474 10.5257 18.5777 11.3475C18.5826 11.5098 18.5803 11.8072 18.5698 12.0087C18.5479 12.3949 18.5269 12.4716 18.4158 12.5738C18.237 12.7415 17.8887 12.7015 17.7566 12.4994C17.6876 12.391 17.6779 12.3116 17.6913 11.8604C17.7296 10.5256 17.4597 9.48057 16.8093 8.43557C16.0323 7.18184 14.8699 6.33727 13.3584 5.92408C12.9729 5.81891 12.6481 5.75481 12.1429 5.6868C11.8138 5.64373 11.7417 5.62551 11.6605 5.57552C11.4152 5.41837 11.4119 5.02043 11.6565 4.86089C11.7827 4.77667 11.8758 4.77291 12.2872 4.8256C13.4936 4.97636 14.5701 5.33483 15.4546 5.87653C16.0887 6.26532 16.4884 6.61459 17.0031 7.22631C17.5475 7.87872 17.8357 8.36108 18.1206 9.10027Z" />
+                  </svg>    
+                </a>
+              </li>   
+              <li class="feedback__social-item">
+                <a class="feedback__social-link" href="https://telegram.me/psychiatrist_if" target="_blank" aria-label="Телеграм">  
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M24 12C24 18.6274 18.6274 24 12 24C5.3726 24 0 18.6274 0 12C0 5.3726 5.3726 0 12 0C18.6274 0 24 5.3726 24 12ZM8.03575 10.9008C6.83365 11.4256 5.59855 11.9649 4.46913 12.587C3.87939 13.0188 4.66319 13.3243 5.39855 13.6108C5.51545 13.6563 5.6311 13.7014 5.73985 13.7464C5.83035 13.7742 5.92235 13.8035 6.0156 13.8332C6.83345 14.0938 7.74535 14.3843 8.53935 13.9473C9.84365 13.198 11.0745 12.3318 12.3045 11.4662C12.7074 11.1826 13.1103 10.8992 13.5156 10.6199C13.5346 10.6077 13.556 10.5938 13.5794 10.5786C13.9247 10.3548 14.7012 9.85145 14.4139 10.545C13.7347 11.2878 13.0072 11.9454 12.2757 12.6065C11.7827 13.0521 11.288 13.4993 10.805 13.9753C10.3843 14.3171 9.94745 15.0044 10.4185 15.483C11.5034 16.2425 12.6054 16.9836 13.7066 17.7243C14.065 17.9653 14.4233 18.2064 14.7809 18.448C15.387 18.9319 16.3343 18.5404 16.4675 17.7843C16.5268 17.4364 16.5863 17.0886 16.6458 16.7407C16.9746 14.8184 17.3034 12.8954 17.594 10.9668C17.6335 10.6642 17.6782 10.3617 17.723 10.059C17.8316 9.3255 17.9403 8.59105 17.9743 7.85355C17.8868 7.11755 16.9943 7.2794 16.4977 7.4449C13.9451 8.4162 11.418 9.4595 8.90095 10.5212C8.6158 10.6475 8.32675 10.7737 8.03575 10.9008Z"
+                       />
+                  </svg> 
+                </a>
+              </li>
+              <li class="feedback__social-item">
+                <a class="feedback__social-link" href="https://wa.me/380682119569" target="_blank" aria-label="Ватсап">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M12 24C5.37258 24 0 18.6274 0 12C0 5.37258 5.37258 0 12 0C18.6274 0 24 5.37258 24 12C24 18.6274 18.6274 24 12 24ZM12.3955 18.6763C16.3297 18.6747 19.5295 15.4741 19.5311 11.5408C19.5318 9.63417 18.7903 7.84141 17.4431 6.49271C16.0959 5.14393 14.3043 4.40082 12.3955 4.4C8.46241 4.4 5.26139 7.60085 5.25982 11.5351C5.25929 12.7927 5.58787 14.0203 6.21231 15.1024L5.2 18.8L8.98267 17.8077C10.0249 18.3762 11.1984 18.6758 12.3926 18.6763H12.3955Z"
+                       />
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M9.15794 16.5159L6.91325 17.1048L7.51239 14.9162L7.37138 14.6918C6.7777 13.7476 6.46414 12.6562 6.4646 11.5355C6.4659 8.26556 9.12647 5.60522 12.3979 5.60522C13.982 5.60577 15.4711 6.22345 16.5908 7.3445C17.7106 8.46555 18.3269 9.95561 18.3263 11.5403C18.325 14.8106 15.6644 17.4712 12.3955 17.4712H12.3931C11.3289 17.4708 10.2851 17.1848 9.37451 16.6445L9.15794 16.5159ZM15.9904 13.2376C15.9458 13.1632 15.827 13.1186 15.6487 13.0293C15.4704 12.9401 14.5938 12.5088 14.4304 12.4492C14.267 12.3898 14.1481 12.36 14.0292 12.5385C13.9104 12.7169 13.5687 13.1186 13.4647 13.2376C13.3607 13.3565 13.2567 13.3715 13.0784 13.2822C12.9002 13.193 12.3257 13.0047 11.6446 12.3972C11.1146 11.9245 10.7568 11.3406 10.6528 11.1621C10.5488 10.9836 10.6417 10.8872 10.7309 10.7983C10.8112 10.7184 10.9092 10.59 10.9984 10.4859C11.0875 10.3818 11.1172 10.3074 11.1767 10.1885C11.2361 10.0694 11.2064 9.96536 11.1618 9.87611C11.1172 9.78686 10.7607 8.90926 10.6121 8.55226C10.4674 8.20459 10.3204 8.25169 10.2109 8.2462C10.1071 8.24098 9.98808 8.23988 9.86923 8.23988C9.75038 8.23988 9.55721 8.28451 9.39378 8.46301C9.23036 8.64151 8.76977 9.07286 8.76977 9.95039C8.76977 10.828 9.40863 11.6758 9.49779 11.7948C9.58693 11.9138 10.755 13.7147 12.5436 14.4869C12.9689 14.6707 13.301 14.7804 13.56 14.8625C13.9871 14.9983 14.3758 14.9791 14.683 14.9332C15.0255 14.882 15.7378 14.5019 15.8865 14.0854C16.035 13.6689 16.035 13.3119 15.9904 13.2376Z"
+                       />
+                  </svg>
+                </a>
+              </li>
+              <li class="feedback__social-item">
+                <a class="feedback__social-link" href="https://www.facebook.com/profile.php?id=100009463183122" target="_blank" aria-label="Фейсбук">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 0C5.37258 0 0 5.37258 0 12C0 18.6274 5.37258 24 12 24C18.6274 24 24 18.6274 24 12C24 5.37258 18.6274 0 12 0ZM13.2508 12.5271V19.0557H10.5495V12.5274H9.2V10.2776H10.5495V8.92678C10.5495 7.0914 11.3116 6 13.4766 6H15.279V8.25006H14.1524C13.3096 8.25006 13.2538 8.56447 13.2538 9.15125L13.2508 10.2773H15.2918L15.053 12.5271H13.2508Z"/>
+                  </svg>
+                </a>
+              </li>
+              <li class="feedback__social-item">
+                <a class="feedback__social-link" href="https://instagram.com/psychiatrist_if?utm_medium=copy_link" target="_blank" aria-label="Инстаграм">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 0C5.37258 0 0 5.37258 0 12C0 18.6274 5.37258 24 12 24C18.6274 24 24 18.6274 24 12C24 5.37258 18.6274 0 12 0ZM9.36164 5.63867C10.0443 5.6076 10.2624 5.6 12.0006 5.6H11.9986C13.7373 5.6 13.9546 5.6076 14.6373 5.63867C15.3186 5.66987 15.784 5.77774 16.192 5.936C16.6133 6.09934 16.9693 6.31801 17.3253 6.67401C17.6813 7.02975 17.9 7.38682 18.064 7.80776C18.2213 8.21469 18.3293 8.67977 18.3613 9.36111C18.392 10.0438 18.4 10.2619 18.4 12.0001C18.4 13.7382 18.392 13.9558 18.3613 14.6385C18.3293 15.3196 18.2213 15.7848 18.064 16.1918C17.9 16.6126 17.6813 16.9697 17.3253 17.3255C16.9697 17.6815 16.6132 17.9007 16.1924 18.0641C15.7852 18.2224 15.3196 18.3303 14.6382 18.3615C13.9556 18.3925 13.7381 18.4001 11.9998 18.4001C10.2618 18.4001 10.0438 18.3925 9.36111 18.3615C8.6799 18.3303 8.21469 18.2224 7.80749 18.0641C7.38682 17.9007 7.02975 17.6815 6.67414 17.3255C6.31827 16.9697 6.09961 16.6126 5.936 16.1917C5.77787 15.7848 5.67 15.3197 5.63867 14.6384C5.60773 13.9557 5.6 13.7382 5.6 12.0001C5.6 10.2619 5.608 10.0436 5.63853 9.36097C5.6692 8.6799 5.7772 8.21469 5.93587 7.80762C6.09987 7.38682 6.31854 7.02975 6.67454 6.67401C7.03028 6.31814 7.38735 6.09947 7.80829 5.936C8.21523 5.77774 8.6803 5.66987 9.36164 5.63867Z"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M11.4264 6.75306C11.5379 6.75289 11.6578 6.75294 11.7872 6.753L12.0005 6.75306C13.7093 6.75306 13.9119 6.7592 14.5867 6.78987C15.2107 6.8184 15.5494 6.92267 15.775 7.01027C16.0736 7.12627 16.2866 7.26494 16.5104 7.48894C16.7344 7.71294 16.8731 7.92628 16.9894 8.22495C17.077 8.45028 17.1814 8.78895 17.2098 9.41296C17.2404 10.0876 17.2471 10.2903 17.2471 11.9983C17.2471 13.7063 17.2404 13.909 17.2098 14.5837C17.1812 15.2077 17.077 15.5464 16.9894 15.7717C16.8734 16.0704 16.7344 16.283 16.5104 16.5069C16.2864 16.7309 16.0738 16.8696 15.775 16.9856C15.5496 17.0736 15.2107 17.1776 14.5867 17.2061C13.912 17.2368 13.7093 17.2434 12.0005 17.2434C10.2916 17.2434 10.089 17.2368 9.41437 17.2061C8.79036 17.1773 8.45169 17.073 8.22596 16.9854C7.92729 16.8694 7.71395 16.7308 7.48995 16.5068C7.26595 16.2828 7.12728 16.07 7.01101 15.7712C6.92341 15.5458 6.81901 15.2072 6.79061 14.5831C6.75994 13.9085 6.75381 13.7058 6.75381 11.9967C6.75381 10.2876 6.75994 10.086 6.79061 9.41136C6.81914 8.78735 6.92341 8.44868 7.01101 8.22308C7.12701 7.92441 7.26595 7.71107 7.48995 7.48707C7.71395 7.26307 7.92729 7.1244 8.22596 7.00813C8.45156 6.92013 8.79036 6.81613 9.41437 6.78747C10.0048 6.7608 10.2336 6.7528 11.4264 6.75146V6.75306ZM15.4168 7.81579C14.9928 7.81579 14.6488 8.1594 14.6488 8.58354C14.6488 9.00754 14.9928 9.35154 15.4168 9.35154C15.8408 9.35154 16.1848 9.00754 16.1848 8.58354C16.1848 8.15953 15.8408 7.81553 15.4168 7.81553V7.81579ZM8.71382 11.9997C8.71382 10.1846 10.1854 8.71306 12.0004 8.71299C13.8155 8.71299 15.2867 10.1846 15.2867 11.9997C15.2867 13.8148 13.8156 15.2857 12.0005 15.2857C10.1854 15.2857 8.71382 13.8148 8.71382 11.9997Z"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12.0006 9.8667C13.1787 9.8667 14.1339 10.8218 14.1339 12.0001C14.1339 13.1782 13.1787 14.1334 12.0006 14.1334C10.8223 14.1334 9.86723 13.1782 9.86723 12.0001C9.86723 10.8218 10.8223 9.8667 12.0006 9.8667V9.8667Z"/>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </footer>
+      </form>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="logo footer__logo">
+          <a class="logo__link" href="#">
+            <img class="logo__img" src="images/icons/Logo_header.svg" alt="logo">
+          </a>
+        </div>
+        <div class="footer__right">
+          <p class="footer__right-text">
+            Copyright ©2022 SinenkoIgor
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</main>
+
+  
+<div id="popup" class="popup">
+  <a href="#header" class="popup__close close-popup">&times;</a>
+  <div class="popup__body">
+    <div class="popup__content">
+      <iframe src="https://www.youtube.com/embed/RFBTUVts1QY" title="YouTube video player" class="popup__video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </div>
+</div>
+
+<div id="popup_2" class="popup popup_2">
+  <a href="#header" class="popup__close close-popup">&times;</a>
+  <div class="popup__body">
+    <div class="popup__content">
+        <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper2">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="images/Gallery/certificate1.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/Gallery/certificate2.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/Gallery/certificate3.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/Gallery/certificate4.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/Gallery/certificate5.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/Gallery/certificate6.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/Gallery/certificate7.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/Gallery/certificate88.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/Gallery/certificate99.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/Gallery/certificate1010.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/Gallery/certificate1111.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/Gallery/certificate1212.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/Gallery/certificate1313.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/Gallery/certificate1414.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/Gallery/certificate1515.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/Gallery/certificate1616.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/Gallery/certificate1818.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/Gallery/certificate2020.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/Gallery/certificate2121.jpg" />
+            </div>
+          </div>
+          <div class="swiper-button-next" onselectstart="return false" onmousedown="return false"></div>
+          <div class="swiper-button-prev" onselectstart="return false" onmousedown="return false"></div>
+        </div>
+        <div thumbsSlider="" class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="images/Gallery/certificate1.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/Gallery/certificate2.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/Gallery/certificate3.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/Gallery/certificate4.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/Gallery/certificate5.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/Gallery/certificate6.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/Gallery/certificate7.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/Gallery/certificate88.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/Gallery/certificate99.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/Gallery/certificate1010.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/Gallery/certificate1111.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/Gallery/certificate1212.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/Gallery/certificate1313.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/Gallery/certificate1414.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/Gallery/certificate1515.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/Gallery/certificate1616.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/Gallery/certificate1818.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/Gallery/certificate2020.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/Gallery/certificate2121.jpg" />
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
+
+<div id="popup_3" class="popup popup_3">
+  <a href="#header" class="popup__close close-popup">&times;</a>
+  <div class="popup__body">
+    <div class="swiper-paginations">
+      <div class="swiper-pagination-bullet swiper-pagination-bullet-active"></div>
+      <div class="swiper-pagination-bullet"></div>
+      <div class="swiper-pagination-bullet"></div>
+    </div>
+    <div class="popup__content">
+      <div class="swiper mySwiper4">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="reviews__slider">
+              <div class="reviews__slider-title">
+                <img src="images/slider_1.jpg" alt="image">
+                <span class="reviews__slider-name">Оксана Дмитриевна</span>
+              </div>
+              <div class="reviews__slider-text-wrap">
+                <p class="reviews__slider-text-2">
+                  Добрый день. Никогда не писала ни о ком отзывы, но в случае с Вами, Игорь Феликсович, с большим удовольствием это сделаю. Вы врач с большой буквы: внимательно выслушали  мои жалобы, дали исчерпывающие ответы на все мои вопросы, объяснили  подробно о тактике лечения. Чувствую себя другим человеком за что вам безмерно благодарна.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="reviews__slider">
+              <div class="reviews__slider-title">
+                <img src="images/slider_2.jpg" alt="image">
+                <span class="reviews__slider-name">Павел Валерьевич</span>
+              </div>
+              <div class="reviews__slider-text-wrap">
+                <p class="reviews__slider-text-2">
+                  Игорь Феликсович, хочу выразить Вам огромную благодарность за лечение. Я думал, что мне уже ничего не поможет. Много лет страдал язвенной болезнью желудка, ходил от одного врача к другому, сидел на диете, но обострение  моей болезни 4-5 раз в год. Я понимаю, что работа у меня нервная, но ничего не мог поменять. После Ваших сеансов за 6 месяцев нет проблем, даже позволяю себя побаловать шашлыком.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="reviews__slider">
+              <div class="reviews__slider-title">
+                <img src="images/slider_3.png" alt="image">
+                <span class="reviews__slider-name">Ирина Юрьевна</span>
+              </div>
+              <div class="reviews__slider-text-wrap">
+                <p class="reviews__slider-text-2">
+                  Полгода назад я приводила к Вам своего сына, у него были проблемы в эмоциональной сфере, ежедневные истерики выматывали нас обоих . Сейчас « золотой ребёнок». После пяти сеансов гипноза мы забыли об истериках, в школе учеба наладилась и друзья хорошие появились. Спасибо Вам большое.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="reviews__slider">
+              <div class="reviews__slider-title">
+                <img src="images/slider_5.jpg" alt="image">
+                <span class="reviews__slider-name">Аля Нагорная</span>
+              </div>
+              <div class="reviews__slider-text-wrap">
+                <p class="reviews__slider-text-2">
+                  С Игорем очень легко и приятно работать! Он словно читает меня изнутри! Моя жизнь после наших с ним консультаций кардинально изменилась в лучшую сторону!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="reviews__slider">
+              <div class="reviews__slider-title">
+                <img src="images/slider_6.jpg" alt="image">
+                <span class="reviews__slider-name">Андрей Белов</span>
+              </div>
+              <div class="reviews__slider-text-wrap">
+                <p class="reviews__slider-text-2">
+                  Спасибо, что помог понять мне себя! И стал моим психотерапевтом! В каждой сложной ситуации,когда я не знаю как лучше поступить- я могу опереться на тебя и получить самый верный совет!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="reviews__slider">
+              <div class="reviews__slider-title">
+                <img src="images/slider_4.jpg" alt="image">
+                <span class="reviews__slider-name">Алексей Солодов</span>
+              </div>
+              <div class="reviews__slider-text-wrap">
+                <p class="reviews__slider-text-2">
+                  Игорь помог мне увидеть себя другим. После работы с ним я стал себя ценить, через 2 месяца нашел новую работу о которой раньше даже не мечтал. Отношения с женой также наладились.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="reviews__slider">
+              <div class="reviews__slider-title">
+                <img src="images/slider_2.jpg" alt="image">
+                <span class="reviews__slider-name">Павел Валерьевич</span>
+              </div>
+              <div class="reviews__slider-text-wrap">
+                <p class="reviews__slider-text-2">
+                  Игорь Феликсович, хочу выразить Вам огромную благодарность за лечение. Я думал, что мне уже ничего не поможет. Много лет страдал язвенной болезнью желудка, ходил от одного врача к другому, сидел на диете, но обострение  моей болезни 4-5 раз в год. Я понимаю, что работа у меня нервная, но ничего не мог поменять. После Ваших сеансов за 6 месяцев нет проблем, даже позволяю себя побаловать шашлыком.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
